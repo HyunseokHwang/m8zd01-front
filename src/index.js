@@ -2,12 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { Provider } from 'mobx-react'
 import * as serviceWorker from './serviceWorker';
+import m8zd010001Store from './pages/m8zd010001/store/m8zd010001Store';
+
+const m8zd010001 = new  m8zd010001Store();
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider 
+    m8zd010001Store = {m8zd010001}
+  >
+    <App/>
+  </Provider>,
   document.getElementById('root')
 );
 
