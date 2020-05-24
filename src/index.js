@@ -4,14 +4,18 @@ import './index.css';
 import App from './App';
 import { Provider } from 'mobx-react'
 import * as serviceWorker from './serviceWorker';
-import m8zd010001Store from './pages/m8zd010001/store/m8zd010001Store';
+// import m8zd010010Store from './pages/m8zd010010/index';
+import m8zd010010Store from './pages/m8zd010010/store/m8zd010010Store';
 
-const m8zd010001 = new  m8zd010001Store();
+const store = {
+  m8zd010010: new m8zd010010Store(),
+};
+// const m8zd010010 = new m8zd010010Store();
 
 
 ReactDOM.render(
   <Provider 
-    m8zd010001Store = {m8zd010001}
+    m8zd010010Store = {store.m8zd010010}
   >
     <App/>
   </Provider>,

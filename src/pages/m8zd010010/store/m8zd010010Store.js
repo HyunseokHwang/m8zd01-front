@@ -1,9 +1,9 @@
 import { observable, computed, toJS, action } from 'mobx';
 import { autobind } from 'core-decorators';
-import m8zd010001Repository from '../repository/m8zd010001Repository';
+import m8zd010010Repository from '../repository/m8zd010010repository';
 
 @autobind
-class m8zd010001Store {
+class m8zd010010Store {
   @observable 
   _user='현석';
 
@@ -15,7 +15,7 @@ class m8zd010001Store {
   @action
   selectMemberList() {
     const param = {};
-    m8zd010001Repository.selectMemberList(param).then(action(
+    m8zd010010Repository.selectMemberList(param).then(action(
       (data) => {
         this._user = data.result;
       }
@@ -23,4 +23,4 @@ class m8zd010001Store {
   }
 }
 
-export default m8zd010001Store
+export default m8zd010010Store;
