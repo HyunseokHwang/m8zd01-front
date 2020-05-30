@@ -1,0 +1,13 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "outDir": "./built",
+        "allowJs": true,
+        "target": "ES2017",
+        "allowUnreachableCode": false,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "typeRoots": [ "./typings" ],
+    },
+}
