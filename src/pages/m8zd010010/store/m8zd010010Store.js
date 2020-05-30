@@ -4,8 +4,8 @@ import m8zd010010Repository from '../repository/m8zd010010repository';
 
 @autobind
 class m8zd010010Store {
-  @observable 
-  _user='현석';
+  @observable
+  _user = '현석';
 
   @computed
   get user(){
@@ -23,4 +23,4 @@ class m8zd010010Store {
   }
 }
 
-export default m8zd010010Store;
+export default new m8zd010010Store();
