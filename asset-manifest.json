@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/m8zd01-front/static/css/main.5ee3f738.chunk.css",
+    "main.css": "/m8zd01-front/static/css/main.994cfc1b.chunk.css",
     "main.js": "/m8zd01-front/static/js/main.7ab20ab7.chunk.js",
     "main.js.map": "/m8zd01-front/static/js/main.7ab20ab7.chunk.js.map",
     "runtime-main.js": "/m8zd01-front/static/js/runtime-main.c75c8fd0.js",
     "runtime-main.js.map": "/m8zd01-front/static/js/runtime-main.c75c8fd0.js.map",
     "static/css/2.d0176e96.chunk.css": "/m8zd01-front/static/css/2.d0176e96.chunk.css",
-    "static/js/2.ce73d5b3.chunk.js": "/m8zd01-front/static/js/2.ce73d5b3.chunk.js",
-    "static/js/2.ce73d5b3.chunk.js.map": "/m8zd01-front/static/js/2.ce73d5b3.chunk.js.map",
+    "static/js/2.277e7a4c.chunk.js": "/m8zd01-front/static/js/2.277e7a4c.chunk.js",
+    "static/js/2.277e7a4c.chunk.js.map": "/m8zd01-front/static/js/2.277e7a4c.chunk.js.map",
     "index.html": "/m8zd01-front/index.html",
-    "precache-manifest.7af24b462f61c3623ce08a9af02b83bb.js": "/m8zd01-front/precache-manifest.7af24b462f61c3623ce08a9af02b83bb.js",
+    "precache-manifest.52258c5628db6bd230c4886ecea6c437.js": "/m8zd01-front/precache-manifest.52258c5628db6bd230c4886ecea6c437.js",
     "service-worker.js": "/m8zd01-front/service-worker.js",
     "static/css/2.d0176e96.chunk.css.map": "/m8zd01-front/static/css/2.d0176e96.chunk.css.map",
-    "static/css/main.5ee3f738.chunk.css.map": "/m8zd01-front/static/css/main.5ee3f738.chunk.css.map",
-    "static/js/2.ce73d5b3.chunk.js.LICENSE.txt": "/m8zd01-front/static/js/2.ce73d5b3.chunk.js.LICENSE.txt",
+    "static/css/main.994cfc1b.chunk.css.map": "/m8zd01-front/static/css/main.994cfc1b.chunk.css.map",
+    "static/js/2.277e7a4c.chunk.js.LICENSE.txt": "/m8zd01-front/static/js/2.277e7a4c.chunk.js.LICENSE.txt",
     "static/js/main.7ab20ab7.chunk.js.LICENSE.txt": "/m8zd01-front/static/js/main.7ab20ab7.chunk.js.LICENSE.txt",
     "static/media/marc.jpg": "/m8zd01-front/static/media/marc.8880a65c.jpg",
     "static/media/sidebar-1.jpg": "/m8zd01-front/static/media/sidebar-1.8e9f0a3c.jpg",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.c75c8fd0.js",
     "static/css/2.d0176e96.chunk.css",
-    "static/js/2.ce73d5b3.chunk.js",
-    "static/css/main.5ee3f738.chunk.css",
+    "static/js/2.277e7a4c.chunk.js",
+    "static/css/main.994cfc1b.chunk.css",
     "static/js/main.7ab20ab7.chunk.js"
   ]
 }
