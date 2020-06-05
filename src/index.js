@@ -43,12 +43,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './vendor';
-
 // import m8zd010010Store from './pages/m8zd010010/index';
 // import m8zd010010Store from './pages/m8zd010010/store/m8zd010010Store';
 import './index.css';
+// import 'semantic-ui-css/semantic.min.css'
 import * as serviceWorker from './serviceWorker';
-
 // const store = {
 //   m8zd010010: new m8zd010010Store(),
 // };

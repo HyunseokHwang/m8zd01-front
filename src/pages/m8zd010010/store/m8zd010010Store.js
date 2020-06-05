@@ -4,6 +4,11 @@ import m8zd010010Repository from '../repository/m8zd010010repository';
 
 @autobind
 class m8zd010010Store {
+
+  static instance;
+
+  // repository;
+
   @observable
   _user = '현석';
 
@@ -11,6 +16,10 @@ class m8zd010010Store {
   get user(){
     return toJS(this._user);
   }
+
+  // constructor(repository) {
+  //   this.repository = repository;
+  // }
 
   @action
   selectMemberList() {

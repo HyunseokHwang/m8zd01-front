@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { observer, inject } from 'mobx-react';
+import TableView from '../view/TableView';
 // import { autobind } from 'core-decorators';
 
 // @autobind
@@ -9,10 +10,10 @@ class m8zd010010Container extends Component {
   render() {
     const { user, selectMemberList } = this.props.m8zd010010Store;
     return (
-      <div>
-        <h1>{user}</h1>
-        <button onClick = { selectMemberList }>클릭</button>
-      </div>
+      <TableView
+        user={user}
+        selectMemberList={selectMemberList}
+      />
     );
   }
 }
